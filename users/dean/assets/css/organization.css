@@ -1,0 +1,23 @@
+.org-card {
+    transition: all 0.3s ease;
+  }
+  
+.card:hover .org-card {
+    background-color: #495057 !important; /* Lighter dark color */
+    padding-left: 1rem !important;
+}
+
+.image{
+    object-fit: contain; 
+    display: flex;
+
+    position: relative; 
+    top: 0; 
+    left: 0; 
+    padding: 20px;
+
+    height: 80%;
+    width: 100%;
+}
+
+

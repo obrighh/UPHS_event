@@ -1,0 +1,12 @@
+{
+    "animations.CursorAnimation": false,
+    "animations.UseCursorColorForCursorAnimation": true,
+    "animations.CursorAnimationOptions": {
+        "Color": "#87CEEB",
+        "TrailLength": 3
+    },
+    "animations.Default-Duration": 400,
+    "animations.Command-Palette": "Scale",
+    "workbench.reduceMotion": "off",
+    "animations.Focus-Dimming-Mode": "None"
+}
