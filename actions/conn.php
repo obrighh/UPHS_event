@@ -1,12 +1,13 @@
 <?php
-    $dbservername = "localhost";
-    $dbusername = "root";
-    $dbpassword = "";
-    $dbname = "uphs_events";
-    
-    
-    $conn = mysqli_connect($dbservername, $dbusername, $dbpassword, $dbname);
-    if (!$conn) {
-        die("Connection failed: " . mysqli_connect_error());
-    }    
+$conn = mysqli_connect(
+    getenv('MYSQLHOST'),
+    getenv('MYSQLUSER'),
+    getenv('MYSQLPASSWORD'),
+    getenv('MYSQLDATABASE'),
+    (int)getenv('MYSQLPORT')
+);
+
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
 ?>
