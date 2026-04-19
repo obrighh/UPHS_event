@@ -57,10 +57,5 @@ function index_pick_countdown_event(array $pool, DateTime $now, DateTimeZone $tz
         }
     ));
 
-    if (count($sameDay) === 1) {
-        return $sameDay[0]['row'];
-    }
-
-    $idx = random_int(0, count($sameDay) - 1);
-    return $sameDay[$idx]['row'];
+    return $sameDay[0]['row'];
 }
