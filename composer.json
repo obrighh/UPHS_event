@@ -1,0 +1,14 @@
+{
+    "name": "uphs/uphs-event",
+    "description": "UPHS Event Management System",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Aubrey Garcia",
+            "email": "aubrey@example.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    }
+}
